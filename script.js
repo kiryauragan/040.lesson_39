@@ -60,7 +60,6 @@ app.delete('/products/:id', (req, res) => {
   }
 });
 
-
 app.listen(3000, () => {
   console.log('Сервер запущено на порту 3000');
 });
